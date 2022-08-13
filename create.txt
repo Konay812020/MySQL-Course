@@ -1,0 +1,39 @@
+SQL=>STRUCTURED QUERY LANGUAGE
+
+CRUD
+create 
+read
+update
+delete
+admin
+analysis
+
+Database 2
+1.temp storage(client side (user)->web browser)
+2.par storage(sever side)
+
+2 types of database 
+1.SQL database
+  1.mysql database*****
+  2.postgra SQl*****
+  3.SQL lite
+  4.Oracle sever*****
+  5.Microsoft Server *****
+  5.etc..
+
+Sql database is table with row and column information _____________________________________
+
+ 
+2.N0-SQl database
+  1.Mongo database
+  2.Redis
+  3.AWS
+  4.etc..
+
+  No-SQL database is obj type (key,value).
+  var obj={
+   key:value,
+  }
+
+  SQL=STRUCTURED QUERY LANGUAGE
+  RDBMS=Relational Database Management System
