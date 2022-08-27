@@ -1,0 +1,87 @@
+SQL=>STRUCTURED QUERY LANGUAGE
+
+CRUD
+create 
+read
+update
+delete
+admin
+analysis
+
+Database 2
+1.temp storage(client side (user)->web browser)
+2.par storage(sever side)
+
+2 types of database 
+1.SQL database
+  1.mysql database*****
+  2.postgra SQl*****
+  3.SQL lite
+  4.Oracle sever*****
+  5.Microsoft Server *****
+  5.etc..
+
+Sql database is table with row and column information _____________________________________
+
+ 
+2.N0-SQl database
+  1.Mongo database
+  2.Redis
+  3.AWS
+  4.etc..
+
+  No-SQL database is obj type (key,value).
+  var obj={
+   key:value,
+  }
+
+  SQL=STRUCTURED QUERY LANGUAGE
+  RDBMS=Relational Database Management System
+
+  
+  1.Regualr OS
+  1.Windows OS (Window 10)
+  2.mac os(air and pro) base in linux
+  3.linux os the most importnt for developers (ubuntu )
+
+  Sever OS (Operating System)
+  1.MS Windows Sever (2012) (GUI or Core(the best severity))
+  2.Linux Sever(
+    redheat for networking ,Kali for hacking,ubuntu and CenOS for webdevelopement
+    )
+  i.GUI OS
+  ii.Core
+
+  xampp
+  wamp
+
+
+  sharing Sever/hosting                   Private-DID Sever/hosting
+  for myanmar and English Font 
+  utf8_unicode_ci
+  utf8_general_ci
+
+  Database > tables > columns
+  database name =small letter A myar gane
+  table name=small letter A myar gane
+  column name=small letter
+  Type
+  only Number =INT
+  Number+String=TEXT(sa lone a yay a twate a myar gti ya)
+  Sting mix number=VARCHAR(sa lone a yay a twate nae nae pae  ya)
+  phonenumber=varchar()0 nae sa loe
+
+
+  abccompanies
+  tables
+  employees
+  id
+  firstname
+  lastname
+  phone
+  address
+  
+  27DB
+
+
+  21ST
