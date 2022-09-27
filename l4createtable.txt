@@ -1,0 +1,65 @@
+=>SHOW TABLE
+SHOW TABLES;
+SHOW FULL TABLES;
+
+=> Show Table(Table Structure)
+Method1
+
+DESCRIBE tablename;
+DESC tablename;
+
+Method2
+SHOW COLUMNS FROM tablename;
+*check table from current db to another db*
+SHOW COLUMNS FROM  databasename.tablename;
+
+=> Create Table
+=Syntax
+
+Create TABLE tablename(
+    column1(cloumnname) datatype,
+    column2(cloumnname) datatype,
+    column3(cloumnname) datatype,
+    .......
+);
+
+persons table
+CREATE TABLE person1(
+    personid INT;
+    firstname VARCHAR(255);
+    lastname VARCHAR(255);
+    city VARCHAR(255);
+    address VARCHAR(255);
+
+)
+------------------------------------------------------------
+
+=>DROP TABLE(FA(single))
+ DROP TABLE tablename;
+ DROP TABLE IF EXITS tablename;
+
+ *Drop table from current db to  another db*
+ DROP TABLE databasename.tablename;
+ DROP TABLE IF EXITS databasename.tablename;
+
+ =>DROP TABLES(MULTI)
+ DROP TABLE tablename,tablename,tablename,....;
+ DROP TABLE IF EXITS tablename,tablename,tablename,....;
+
+ *Drop table(multi) from current db to  another db*
+ DROP TABLE databasename.tablename,tablename,tablename,...;
+ DROP TABLE IF EXITS databasename.tablename,tablename,tablename,...;
+ -------------------------------------------------------------
+
+ *Exercise
+ CREATE TABLE `abc`(
+    `name` varchar(10)
+ );
+CREATE TABLE IF NOT EXITS `abc`(
+    name varchar(10)
+);
+#error 
+CREATE TABLE abc(
+    name varchar(10)
+);
+

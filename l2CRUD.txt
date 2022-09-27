@@ -1,0 +1,54 @@
+CRUD=>Create,Read,Update,delete
+
+=>Create
+CREATE DATABASE   dbname; -> Create a new database
+CREATE TABLE tablename;   -> create a new table
+
+=>Update
+ALTER DATABASE;  ->  modifies a database(update)
+ALTER TABLE;     ->  modifies a table(update)
+
+=>Delete
+DROP DATABASE;   ->  delete a database
+DROP TABLE;      ->  delete a table
+
+=>INPUT DATA 
+INSERT INTO ;   ->insert new data into a database
+SELECT          ->  extracts data from database
+UPDATE          -> update data in a database
+DELETE          -> Delete data in a database
+
+
+--------------------------------------------------------------------
+
+/--      Create  Database       --/
+
+step1=> show databases
+       SHOW DATABASES; / s is very important /
+
+step2=> create a new database  
+       CREATE DATABASE dbname;
+       CREATE DATABASE creativeFeature;//dbname is  creativeFeature
+
+=>Delete a database
+DROP DATABASE;
+DROP DATABASE dbname;
+
+=> About Database Naming
+1.Can Create 
+    CREATE DATABASE book-Stop;
+    CREATE DATABASE  SchoolApp;
+    *CREATE DATABASE  bookingSystem;*
+2.Cannot Create 
+   assign value($,@,...)
+
+3. Can Create My App;
+   can Create MY$#App;
+      
+
+
+
+
+
+
+

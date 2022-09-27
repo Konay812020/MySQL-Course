@@ -1,0 +1,11 @@
+step by step how to create a new database
+SHOW DATABASES;
+CREATE DATABASE DBNAME;
+USE DATABASE DBNAME;
+CREATE TABLE tablename;
+
+
+
+
+
+//25TB
