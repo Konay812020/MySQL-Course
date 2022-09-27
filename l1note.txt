@@ -65,12 +65,16 @@ Sql database is table with row and column information __________________________
   database name =small letter A myar gane
   table name=small letter A myar gane
   column name=small letter
+---------------------------------------------
   Type
   only Number =INT
-  Number+String=TEXT(sa lone a yay a twate a myar gti ya)
+  Number+String = TEXT(sa lone a yay a twate a myar gti ya)
   Sting mix number=VARCHAR(sa lone a yay a twate nae nae pae  ya)
-  phonenumber=varchar()0 nae sa loe
 
+  phonenumber=varchar()0 nae sa loe
+  
+  NUll value pay kae yin htae lay ya dae.
+  ---------------------------------------------------------
 
   abccompanies
   tables
@@ -81,7 +85,74 @@ Sql database is table with row and column information __________________________
   phone
   address
   
+
+
+  comment
+  single line comment
+  #comment here
+  --Comment here--
+
+
+-------------------------------------------------------------------
+
+==>Arithmetic operators
+ Operators                                 Meaning                                    Operate On
+ +(Add)                                    Addition                                    Numeric  Value       
+ -(Substract)                               Substraction                              Numeric  Value       
+ *(multiply)                             Multiplication                                Numeric  Value       
+ /(Divide)                                  Division                                    Numeric  Value       
+ %(Modulus)                             Return remainder of a Division                  Numeric  Value    
+
+ ------------------------------------------------------------------------   
+
+Exercise Addition operator=Syantax
+
+SELECT 10+2;                      #12
+SELECT "10"+2;                     #12
+SELECT "10"+"2";                   #12
+SELECT 10+20, 20+30;              #30 50
+
+
+SELECT 100+"aung aung";            #100
+SELECT "100"+"aung aung";          #100
+
+Exercise Substraction operator=Syantax
+SELECT 10-2;                      #8
+SELECT 20-10, 30-20;              #10 10
+SELECT 100-"aung aung";            #100
+SELECT "1000"-"500","2000"-"1000";          #500  1000
+
+Exercise Multiplication operator=Syantax
+SELECT 10 *2;                      #8
+SELECT 20*10, 30*20;              #10 10
+SELECT 100*"aung aung";            #100
+SELECT "1000"*"500","2000"*"1000";          #500  1000
+
+Exercise Multiplication operator=Syantax
+SELECT 10/2;                      
+SELECT 20/10, 30/20;              #10 10
+SELECT 100/"aung aung";            #100
+SELECT "1000"/"500","2000"/"1000";  
+
+SELECT 10 DIV 2;                      
+SELECT 20 DIV 10, 30 DIV 20;              #10 10
+SELECT 100 DIV"aung aung";            #100
+SELECT "1000"DIV"500","2000" DIV "1000";    
+
+Exercise Division operator=Syantax
+SELECT 10 % 2;                      
+SELECT 20%10, 30%20;              
+SELECT 20 % 10, 30 % 20;    
+
+SELECT 10 % 3;
+SELECT 10 MOD 3;
+SELECT 20 MOD 10, "30" MOD 20;
+SELECT 70 MOD 3,MOD(10,3)
+
+
   27DB
 
 
   21ST
+
+  28DP
